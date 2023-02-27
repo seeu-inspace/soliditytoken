@@ -64,12 +64,6 @@ contract Faucet is Mortal {
         return lockTime / 60;
     }
 
-    function withdraw() external payable onlyOwner {
-        emit Withdrawal(msg.sender, token.balanceOf(address(this)));
-        bool success = token.transfer(msg.sender, token.balanceOf(address(this)));
-        require(success, "Transfer failed");
-    }
-
     function requestTokens() public {
         require(
             token.balanceOf(address(this)) >= withdrawalAmount,
@@ -82,6 +76,12 @@ contract Faucet is Mortal {
 
         nextAccessTime[msg.sender] = block.timestamp + lockTime;
         bool success = token.transfer(msg.sender, withdrawalAmount);
+        require(success, "Transfer failed");
+    }
+    
+    function withdraw() external payable onlyOwner {
+        emit Withdrawal(msg.sender, token.balanceOf(address(this)));
+        bool success = token.transfer(msg.sender, token.balanceOf(address(this)));
         require(success, "Transfer failed");
     }
 
