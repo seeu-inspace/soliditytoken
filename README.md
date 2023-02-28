@@ -70,7 +70,7 @@ The following gas optimizations were implemented in the contracts.
 
 ## Solidity Token Faucet UI
 
-Host the project in the current directory on a server. If you're using Visual Studio, you can use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+Host the project in the [stkfaucet-ui](stkfaucet-ui/) directory on a server. If you're using Visual Studio, you can use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
 ### <ins>Browserify</ins>
 
