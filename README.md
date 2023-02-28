@@ -2,7 +2,14 @@
 
 Final project for "Alchemy University, The Ethereum Developer Bootcamp". Took also inspiration from the series [ERC20 Tokens by Block Explorer](https://www.youtube.com/playlist?list=PLD_RqipW0-9ugx2qLcwhRkzOhcBwUwSa4).
 
-This project aims to create a token called "SolidityToken $STK". The tokens are then distributed to users who request them from the faucet. Contracts built with [Hardhat](https://hardhat.org/). UI built with [Ethers](https://docs.ethers.org/) and [Browserify](https://browserify.org/) .
+This project aims to create a token called "SolidityToken $STK". The tokens are then distributed to users who request them from the faucet. Contracts built with [Hardhat](https://hardhat.org/). UI built with [Ethers](https://docs.ethers.org/) and [Browserify](https://browserify.org/).
+
+| Index |
+| ---   |
+| [Project Layout](#project-layout) |
+| [Gas optimizations](#gas-optimizations) |
+| [Tests](#tests) |
+| [Deploy the contracts](#deploy-the-contracts) |
 
 ## Project Layout
 
