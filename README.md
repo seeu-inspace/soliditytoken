@@ -10,6 +10,7 @@ This project aims to create a token called "SolidityToken $STK". The tokens are 
 | [Gas optimizations](#gas-optimizations) |
 | [Tests](#tests) |
 | [Deploy the contracts](#deploy-the-contracts) |
+| [Solidity Token Faucet UI](#solidity-token-faucet-ui) |
 
 ## Project Layout
 
@@ -66,3 +67,14 @@ The following gas optimizations were implemented in the contracts.
    ```shell
    npx hardhat run --network sepolia scripts/deployFaucet.js
    ```
+
+## Solidity Token Faucet UI
+
+Host the project in the current directory on a server. If you're using Visual Studio, you can use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+
+### <ins>Browserify</ins>
+
+`dist/bundle.js` is generated using Browserify with the following command
+```shell
+browserify src/index.js --standalone bundle -o dist/bundle.js
+```
