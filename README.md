@@ -52,6 +52,8 @@ The following gas optimizations were implemented in the contracts.
   npx hardhat test --network hardhat
   ```
 
+<img src="https://raw.githubusercontent.com/seeu-inspace/soliditytoken/main/presentation/test.png">
+
 ## Deploy the contracts
 
 0. From the [contracts](contracts/) folder, follow the following steps
@@ -81,3 +83,5 @@ Host the project in the [stkfaucet-ui](stkfaucet-ui/) directory on a server. If 
 ```shell
 browserify src/index.js --standalone bundle -o dist/bundle.js
 ```
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/soliditytoken/main/presentation/faucet.png">
