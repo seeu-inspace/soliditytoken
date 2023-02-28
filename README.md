@@ -44,7 +44,7 @@ The following gas optimizations were implemented in the contracts.
   npx hardhat test --network hardhat
   ```
 
-## Deploy and run the project
+## Deploy the contracts
 
 0. From the [contracts](contracts/) folder, follow the following steps
 1. Use the following command to deploy `SolidityToken.sol` on the Sepolia testnet
