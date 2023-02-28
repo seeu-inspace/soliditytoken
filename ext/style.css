@@ -1,0 +1,35 @@
+body {
+    color: #2b2f3b;
+    font-family: Poppins,sans-serif;
+    padding-top: 20px;
+    background-color: #f4f0e8;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+.intro {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+button{
+    width:100%;
+	padding: 6px;
+    background-color:white;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+}
+
+div{
+    padding-bottom: 20px;
+}
+
+input[type=text] {
+    width:100%;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 0px;
+    background-color:white;
+}
