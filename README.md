@@ -4,6 +4,14 @@ Final project for "Alchemy University, The Ethereum Developer Bootcamp". Took al
 
 This project aims to create a token called "SolidityToken $STK". The tokens are then distributed to users who request them from the faucet. Built with [Hardhat](https://hardhat.org/), <a href="https://docs.ethers.org/" target="_blank" rel="noreferrer noopener">Ethers</a>.
 
+## Project Layout
+
+There are three main folders:
+
+1. `contracts/contract` - contains the solidity contracts
+2. `contracts/test` - contains test for the solidity contract of the ERC20 token
+3. `stkfaucet-ui/` - contains the ui
+
 ## Gas optimizations
 
 The following gas optimizations were implemented in the contracts.
