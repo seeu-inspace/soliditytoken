@@ -29,7 +29,7 @@ The following gas optimizations were implemented in the contracts.
   - References:
     - [`<x> += <y>`  Costs More Gas Than `<x> = <x> + <y>` For State Variables](https://code4rena.com/reports/2022-12-caviar/#g-01-x--y-costs-more-gas-than-x--x--y-for-state-variables)
     - [StateVarPlusEqVsEqPlus.md](https://gist.github.com/IllIllI000/cbbfb267425b898e5be734d4008d4fe8)
-- **Use assembly to check for address(0)**
+- **Use of assembly to check for address(0)**
   - Description: By checking for `address(0)` using assembly language, you can avoid the use of more gas-expensive operations such as calling a smart contract or reading from storage. This can save 6 gas per instance.
   - Reference:
     - [EVM Codes](https://www.evm.codes/)
