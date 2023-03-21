@@ -10,7 +10,7 @@ This project aims to create a token called "SolidityToken $STK". The tokens are 
 | [Gas optimizations](#gas-optimizations) |
 | [Tests](#tests) |
 | [Deploy the contracts](#deploy-the-contracts) |
-| [Solidity Token Faucet UI](#solidity-token-faucet-ui) |
+| [SolidityToken Faucet UI](#soliditytoken-faucet-ui) |
 
 ## Project Layout
 
@@ -73,7 +73,7 @@ The following gas optimizations were implemented in the contracts.
 
 A version of Faucet is already deployed at [0x8e830f030a1a9094bbb6ae779879177f65a47f81](https://sepolia.etherscan.io/address/0x8e830f030a1a9094bbb6ae779879177f65a47f81) and a version of SolidityToken is deployed at [0x16e41846e3be94bd529afa9b475899bd15d88bc1](https://sepolia.etherscan.io/address/0x16e41846e3be94bd529afa9b475899bd15d88bc1) on the Sepolia testnet.
 
-## Solidity Token Faucet UI
+## SolidityToken Faucet UI
 
 Host the project in the [stkfaucet-ui](stkfaucet-ui/) directory on a server. If you're using Visual Studio, you can use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
